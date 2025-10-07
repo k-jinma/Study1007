@@ -20,5 +20,10 @@ public class Bread extends Item {
 	void setBestBefore(String bestBefore) {
 		this.bestBefore = bestBefore;
 	}
+	
+	//オーバーライド
+	void display() {
+		System.out.println(this.getName() + " " + this.bestBefore);
+	}
 
 }

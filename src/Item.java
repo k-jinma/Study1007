@@ -1,5 +1,5 @@
 
-public class Item {
+public abstract class Item {
 
 	private int no; // 商品番号
 	private String name; // 商品名
@@ -36,6 +36,8 @@ public class Item {
 	void setPrice(int price) {
 		this.price = price;
 	}
+	
+	abstract void display();
 
 	
 }

@@ -11,7 +11,7 @@ public class Main {
 		Register register = new Register();
 		
 		// 商品を準備する
-		Item onigiri1 = new Item(1, "しゃけおにぎり", 150);
+		Onigiri onigiri1 = new Onigiri(1, "しゃけおにぎり", 150);
 		Bread sandwich1 = new Bread(2, "たまごサンド", 300, "2024-09-30");
 		
 		
